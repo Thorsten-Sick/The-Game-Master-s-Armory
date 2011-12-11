@@ -1,0 +1,6 @@
+# File by Thorsten Sick
+#
+#
+
+m:{m.ngen} {fam.ngen}
+f:{f.ngen} {fam.ngen}

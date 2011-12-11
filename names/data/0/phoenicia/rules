@@ -1,0 +1,29 @@
+# These names were sent to me by Dirk Richter (Midgard Forum)
+#
+#
+#The Phoenicians were descendants of the Canaanites. They lived north of Canaan in a narrow 
+#strip of land by the Mediterranean Sea. They were known for their timber, especially cedar and 
+#cypress, their purple dye, which they made from local murex shells, and their dyed wool. 
+#Phoenician ships and merchants were an important presence in the Mediterranean Sea and the Red 
+#Sea. The city of Tyre founded colonies at Carthage in North Africa, on the island of Cyprus, 
+#and perhaps in mining areas in north Greece between the eleventh and ninth centuries BC. Other 
+#Phoenician cities formed their own colonies throughout the area, including one at Cades (Cadiz) 
+#on the Atlantic coast of Spain. The major Phoenician cities included Tyre, Sidon, Byblos 
+#Phoenician Gebal), and Arvad. The cities of Phoenicia were dominated by the Egyptians, 
+#Amorites, the Hyksos, Assyrians, Babylonians, Persians, Greeks, and Romans at various times in 
+#their long history. The city-states of Phoenicia never united to form a kingdom of Phoenicia.
+#(2, 3)
+#
+# I asume there are no family names
+#
+# Sources: 
+#Phoenicia.org.
+#
+#(2) Cities of the Biblical World: An Introduction to the Archaeology, Geography, and History of 
+#Biblical Sites, LaMoine F. DeVries, Peabody, Massachusetts: Hendrickson Publishers, 1997.
+#
+#(3) Explorers of the Ancient World, Charnan Simon, Chicago: Children's Press, 1990. 
+#
+
+m:{m.ngen}
+f:{f.ngen}

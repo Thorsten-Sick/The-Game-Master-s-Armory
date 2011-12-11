@@ -1,0 +1,12 @@
+# Name Generation Library (libnamegen)
+# Rules file for Catalan names
+#
+# By Siegfried-Angel Gevatter Pujals (RainCT) <siggi.gevatter@gmail.com>
+#
+m:{male.ngen} {surnames.ngen} {surnames.ngen}
+
+f:{female.ngen} {surnames.ngen} {surnames.ngen}
+
+v:{village.ngen}
+
+c:{city.ngen}

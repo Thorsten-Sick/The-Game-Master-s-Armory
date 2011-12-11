@@ -1,0 +1,4 @@
+# Rule file for Africa
+# Basing on names from CD covers
+m:{m.ngen} {fam.ngen}
+f:{f.ngen} {fam.ngen}

@@ -1,0 +1,4 @@
+# Rule file for Norway by Johan Eklundh
+
+m:{m.ngen} {m.ngen} {fam.ngen}
+f:{f.ngen} {f.ngen} {fam.ngen}

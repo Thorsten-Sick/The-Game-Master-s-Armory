@@ -1,0 +1,8 @@
+# From Dirk Richter:
+#Die Namensmagie der Seemeister verleiht Zauberkundigen Macht über diejenigen, deren wahren #Namen er kennt. Die Geburts- und Familiennamen sämtlicher Kinder aus dem Zuchtprogramm der #Viarchen wurden daher von der Alpanupriesterschaft und den Eltern geheimgehalten, für den Fall, #daß die Kinder später in den Rang eines Seemeisters aufstiegen. Statt dessen erhielten die #Kinder die Namen von Farben, Tieren oder Zahlen. Beim Erreichen des Erwachsenenalters - damals #21 Jahre - wählten sich die angehenden Seemeister einen neuen Namen, unter dem sie fortan #bekannt wurden, dabei kombinierten manche von ihnen auch den eigentlichen "Seemeisternamen" mit #einem geläufigen valianischen Vornamen, Frauen unter ihnen hingegen mit ihren Familiennamen.
+
+# Missing : Names of children (colours, numbers, animals in "Valian")
+
+
+m:{m.ngen}
+f:{f.ngen}

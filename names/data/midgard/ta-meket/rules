@@ -1,0 +1,6 @@
+#
+# Simple rules
+#
+
+m:{m.ngen}
+f:{f.ngen}

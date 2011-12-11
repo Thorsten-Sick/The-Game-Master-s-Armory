@@ -1,0 +1,10 @@
+# Names from Rawindra are quite simple (one name) with a optional tile
+# They are inspred from India. A Source book is available and I will take names from there
+# and add indian names.
+
+m:{m.ngen}
+f:{f.ngen}
+
+m:[?:noble]{m.ngen}<uname> </uname> <uname>&#2352;&#2380;</uname>Rao
+f:[?:noble]{f.ngen}<uname> </uname> <uname>&#2352;&#2380;</uname>Rao
+# Well I just guessed the female version, maybe fix it

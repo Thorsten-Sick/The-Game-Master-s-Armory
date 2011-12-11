@@ -1,0 +1,22 @@
+# Nahuatlan is the Azteks of Midgard
+# Names for children is the birth date (day+month)
+# If the come of age (7 years) and survived this time, they get an additional name
+
+
+m:[?:child]{day.ngen} {month.ngen}
+f:[?:child]{day.ngen} {month.ngen}
+
+
+# Adults get an added item, maybe with attribute (smoking shield)
+m:[?:adult]{day.ngen} {month.ngen} {items.ngen}
+f:[?:adult]{day.ngen} {month.ngen} {items.ngen}
+
+
+# Sometimes, adults get names created out of sylabels (wow, this must be written wrong)
+# to write this name, many signs are written in the order of their significant (and used) syl...
+m:[?:adult]{day.ngen} {month.ngen} {start.ngen}{middle.ngen}{end.ngen}
+f:[?:adult]{day.ngen} {month.ngen} {start.ngen}{middle.ngen}{end.ngen}
+m:[?:adult]{day.ngen} {month.ngen} {start.ngen}{end.ngen}
+f:[?:adult]{day.ngen} {month.ngen} {start.ngen}{end.ngen}
+
+

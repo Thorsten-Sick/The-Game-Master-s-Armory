@@ -1,0 +1,6 @@
+# Rule file for Russia
+# Basing on the few names I know ( Thorsten Sick)
+# And a lot of help from Alex Ellwein
+
+m:{m.ngen} {mmid.ngen} {mfam.ngen}
+f:{f.ngen} {fmid.ngen} {ffam.ngen}

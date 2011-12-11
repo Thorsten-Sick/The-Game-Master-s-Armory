@@ -1,0 +1,5 @@
+# Rule file for UTF8 tests
+
+m:{m.ngen}
+f:{f.ngen}
+

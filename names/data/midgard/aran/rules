@@ -1,0 +1,17 @@
+# Rules by Thorsten Sick
+#
+# Descname is a "describing name"
+#
+# Describing special attributes of the person. If this is a city (he/she/it is from), it is followed by an "i"
+#
+
+
+m:{m_aeiou.ngen}
+m:{m_no_aeiou.ngen}
+m:{m_aeiou.ngen}-ye {descname.ngen}
+m:{m_no_aeiou.ngen}-e {descname.ngen}
+
+f:{f_aeiou.ngen}
+f:{f_no_aeiou.ngen}
+f:{f_aeiou.ngen}-ye {descname.ngen}
+f:{f_no_aeiou.ngen}-e {descname.ngen}

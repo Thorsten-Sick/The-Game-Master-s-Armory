@@ -1,0 +1,14 @@
+# Rules for the names by Thorsten Sick
+# Based on greek names (at least a bit)
+#
+
+m:{m.ngen} {fam.ngen}
+m:{m.ngen}
+m:{m.ngen} {fam.ngen} apo {cities.ngen}
+m:{m.ngen} apo {cities.ngen}
+
+
+f:{f.ngen} {fam.ngen}
+f:{f.ngen}
+f:{f.ngen} {fam.ngen} apo {cities.ngen}
+f:{f.ngen} apo {cities.ngen}

@@ -1,0 +1,25 @@
+Midgard is a Pen&Paper Role Playing Game from Germany
+
+The countries there are basing on interesting cultures from the real earth with a few modifications (magic, especially).
+
+Cultures are alba (scottish), eschar (oriental), küstenstaaten (a bit of italy the machiavelli-time) and so on.
+
+more can be found at
+http://www.midgard-online.de
+
+I got the allowance to create these names
+----------8<----------------------
+
+Hallo Thorsten,
+
+ich habe keine Einwände, wenn Du die Quellenbücher und Abenteuer von 
+MIDGARD nach Namen durchforstest und diese in einer Datenbank 
+zusammenstellst, damit Spieler schnellen Zugriff auf diese haben.
+
+Beste Grüße,
+Elsa Franke
+---------------- 8< -------------------------
+
+There is a character generator in the web (open source) called magus.
+http://midgard.berlios.de/html_doc
+

@@ -1,0 +1,9 @@
+# Name Generation Library (libnamegen)
+# Rules file for Catalan names in 1920
+#
+# By Siegfried-Angel Gevatter Pujals (RainCT) <siggi.gevatter@gmail.com>
+#
+
+m:{m.ngen} de {s_old.ngen}
+f:{f.ngen} de {s_old.ngen}
+

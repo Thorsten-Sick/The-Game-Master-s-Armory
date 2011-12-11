@@ -1,0 +1,68 @@
+# From the Midgard-Forum rules
+# And some names I found online
+#
+#
+
+# Male
+#######
+
+#simple
+m:{m.ngen} bin {m.ngen}
+m:{m.ngen} ben {m.ngen}
+m:Bin {m.ngen}
+m:Ben {m.ngen}
+
+# With extra title
+# Student
+m:{m.ngen} bin {m.ngen} Talib {m.ngen}
+m:{m.ngen} ben {m.ngen} Talib {m.ngen}
+# Scribe
+m:{m.ngen} bin {m.ngen} Katib {m.ngen}
+m:{m.ngen} ben {m.ngen} Katib {m.ngen}
+
+# Longer
+m:{m.ngen} bin {m.ngen} bin {m.ngen} bin {m.ngen}
+m:{m.ngen} ben {m.ngen} ben {m.ngen} ben {m.ngen}
+m:{m.ngen} bin {m.ngen} bin {m.ngen}
+m:{m.ngen} ben {m.ngen} ben {m.ngen}
+#m:Bin {m.ngen} bin {m.ngen}
+m:Ibn {m.ngen} ben {m.ngen}
+
+# Very long
+m:{m.ngen} bin {m.ngen} bin {m.ngen} bin {m.ngen} bin {m.ngen}
+m:{m.ngen} ben {m.ngen} ben {m.ngen} ben {m.ngen} ben {m.ngen}
+
+# Father of
+m:Abu {m.ngen} {m.ngen} bin {m.ngen} bin {m.ngen}
+m:Abu {f.ngen} {m.ngen} bin {m.ngen} 
+m:Abu {m.ngen} {m.ngen} bin {m.ngen}
+
+# With the city he is from
+# m:Bin {m.ngen} al-{cities.ngen}i
+m:Ibn {m.ngen} al-{cities.ngen}i
+m:{m.ngen} bin {m.ngen} al-{cities.ngen}i
+m:{m.ngen} ben {m.ngen} al-{cities.ngen}i
+
+#Female
+########
+
+#simple
+f:{f.ngen} bint {m.ngen}
+f:Bint {m.ngen}
+
+# Longer
+f:{f.ngen} bint {m.ngen} bin {m.ngen} bin {m.ngen}
+f:{f.ngen} bint {m.ngen} ben {m.ngen} ben {m.ngen}
+f:{f.ngen} bint {m.ngen} bin {m.ngen}
+f:{f.ngen} bint {m.ngen} ben {m.ngen}
+f:Bint {m.ngen} bin {m.ngen}
+
+# Mother of
+f:Umm {m.ngen} {f.ngen} bint {m.ngen}
+f:Umm {f.ngen} {f.ngen} bint {m.ngen}
+
+# From a city
+f:{f.ngen} bint {m.ngen} al-{cities.ngen}i
+f:{f.ngen} bint {m.ngen} bin {m.ngen} bin {m.ngen} al-{cities.ngen}i
+f:{f.ngen} bint {m.ngen} ben {m.ngen} ben {m.ngen} al-{cities.ngen}i
+f:Bint {m.ngen} al-{cities.ngen}i

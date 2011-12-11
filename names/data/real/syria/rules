@@ -1,0 +1,8 @@
+# Rules for Syrian Names by Thorsten Sick
+#
+#
+
+m:{m.ngen} {fam.ngen}
+m:{m.ngen} {m.ngen} {fam.ngen}
+f:{f.ngen} {fam.ngen}
+f:{f.ngen} {f.ngen} {fam.ngen}

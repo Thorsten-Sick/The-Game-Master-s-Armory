@@ -1,0 +1,17 @@
+König = Rìgh
+
+Prinz = Fiù
+
+Herzog = diùc
+
+Baron = baran
+
+Graf = Iarla
+
+Ritter = Ridire
+----------------Elsas:
+Curadh (= Ritter)
+Elestar (= Bannerträger)
+Flaíth (= Fürst)
+Iarla (= Graf)
+Ri (= König)

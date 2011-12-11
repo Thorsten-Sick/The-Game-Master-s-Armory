@@ -1,0 +1,5 @@
+#
+# By Thorsten Sick
+#
+m:{fam.ngen} {m.ngen}
+f:{fam.ngen} {f.ngen}

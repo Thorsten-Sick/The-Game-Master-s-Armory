@@ -1,0 +1,38 @@
+NAME GENERATION LIBRARY
+-----------------------
+
+Catalan Database
+
+Created by:
+ Siegfried-Angel Gevatter Pujals (RainCT) <siggi.gevatter@gmail.com>
+
+References:
+ Generalitat de Catalunya (www.gencat.cat)
+ Some phone books
+ BehindTheNames.com
+ Santoral Català
+ ...
+
+
+ABOUT THE LANGUAGE
+------------------
+
+English name: Catalan
+Real Name: Català (pronunciation: /kata'la/)
+
+Catalan is a Romance language that is spoken or understood by more than
+10 millions people.
+
+It's the official language of Andorra and co-official in the Spanish
+autonomous communities (once a free country, the "Països Catalans") of
+Balearic Islands, Valencia (some times under the name "Valencian") and
+Catalonia. It's also spoken in parts of France and in the city of Alger,
+in Sardinia (Italy).
+
+In the region of the "Països Catalans" (see above), people can have
+Catalan or Spanish names, or a mixture of both.
+
+More information: 
+	- http://en.wikipedia.org/wiki/Catalan_language
+	- http://en.wikipedia.org/wiki/Catalan_Countries
+	- http://www.freecatalonia.com/fc/main.asp?opc=1

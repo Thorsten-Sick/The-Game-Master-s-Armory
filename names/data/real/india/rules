@@ -1,0 +1,8 @@
+# Indian names by Sharath Kumar
+# Rules by Thorsten Sick (as commanded by shamar :-) )
+# 
+#
+
+m:{m.ngen} {fam.ngen}
+f:{f.ngen} {fam.ngen}
+

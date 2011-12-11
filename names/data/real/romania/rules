@@ -1,0 +1,6 @@
+# Rule file for Romania
+# Basing on names from a phone book
+# By Thorsten Sick
+
+m:{m.ngen} {fam.ngen}
+f:{f.ngen} {fam.ngen}

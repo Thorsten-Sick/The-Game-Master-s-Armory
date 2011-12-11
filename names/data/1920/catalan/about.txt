@@ -1,0 +1,24 @@
+NAME GENERATION LIBRARY
+-----------------------
+
+Catalan Database for 1920
+
+Created by:
+ Siegfried-Angel Gevatter Pujals (RainCT) <siggi.gevatter@gmail.com>
+
+
+The Catalan language is spoken in the territories that were:
+
+ * Principality of Catalonia
+ * Kingdom of Majorca (Balearic Inslands)
+ * Kingdom of Valencia
+ * El Carxe (a region of Murcia)
+ * Andorra
+ * Alguer (a city in Sardania)
+
+For more information: http://en.wikipedia.org/wiki/Catalan_Countries
+
+
+---
+Disclaimer: This database might contain names that are not accurate
+to the indicated age.

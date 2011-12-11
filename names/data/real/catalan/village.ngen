@@ -1,0 +1,353 @@
+# Name Generation Library (libnamegen)
+# Catalan village names
+#
+# By Siegfried-Angel Gevatter Pujals (RainCT) <siggi.gevatter@gmail.com>
+#
+Abrera
+Aguilar de Segarra
+Alella
+Aliber
+Alpens
+Ametlla de Merola
+Antius
+Arboçar
+Arenys de Mar
+Arenys de Munt
+Argençola
+Argentona
+Artés
+Avià
+Avinyó
+Avinyonet del Penedès
+Badalona
+Bagà
+Balenyà
+Balsareny
+Barri Vilar
+Begues
+Bellprat
+Berga
+Bleda
+Bonavista
+Borredà
+Bruc
+Bruguers
+Brull
+Cabanyes
+Cabrera de Mar
+Cabrera d'Igualada
+Cabrils
+Calaf
+Ca l'Avi
+Calders
+Caldes d'Estrac
+Calella
+Calldetenetes
+Callús
+Calonge de Segarra
+Camps
+Ca n'Aguilera
+Can Bas
+Can Batista
+Can Catassús
+Canet de Fals
+Canet de Mar
+Can Fortimarc
+Can Grs
+Can Marcet
+Ca n'Ollivella
+Can Paixano
+Can Rosell
+Cantallops
+Cantonigròs
+Canyamars
+Canyelles
+Capellades
+Capolat
+Cardona
+Carme
+Cases Noves de Can Pardo
+Casetes de la Gornal
+Casó
+Casots
+Casserres
+Castelladral
+Castellar
+Castellar del Riu
+Castellar de m'Hug
+Castellbell i el Vilar
+Castelldefels
+Castell de l'Areny
+Castellet
+Castellfollit de Riubregós
+Castellgalí
+Castellnou de Bages
+Castellolí
+Castelltallat
+Castellví de la Marca
+Castellví de Rosanes
+Centelles
+Cercs
+Cint
+Clariana
+Collbató
+Collsuspina
+Colònia Jorba
+Colònia Vidal
+Comtals
+Conill
+Copons
+Corbera de Llobregat
+Cornellà de Llobregat
+Cubelles
+Dosrius
+Esparreguera
+Espiells
+Espinelves
+Esplugues de Llobregat
+Espunyola
+Estany
+Fals
+Farga de Bebié
+Fígols
+Fogars de la Selva
+Folgueroles
+Fonollosa
+Font-rubí
+Gaià
+Gargallà
+Garraf
+Gavà
+Gelida
+Gironellà
+Gisclareny
+Gornal
+Gósol
+Granada
+Guàrdia
+Guardiola de Berguedà
+Guixaró
+Gurb
+Hospitalet
+Hostalets de Pierola
+Igualada
+Joncadella
+Jorba
+Lavern
+L'Hospialet de Llobregat
+Llacuna
+Llavinera
+Lluçà
+Maians
+Malanyeu
+Malgrat de Marc
+Malla
+Manlleu
+Manresa
+Marganell
+Martorell
+Martorelles
+Masies de Roda
+Masies de Voltregà
+Masnou
+Masquefa
+Masuques
+Masvidal
+Mataró
+Mediona
+Moià
+Moja
+Molins de Rei
+Mollet
+Monistrol d'Anoia
+Monistrol de Calderes
+Monistrol de Montserrat
+Monistrolet
+Monjos
+Montclar
+Montesquiu
+Montgat
+Montmajor
+Montmaneu
+Montserrat
+Muntanyola
+Múnter
+Navarcles
+Navàs
+Nou de Berguedà
+Òdena
+Olesa de Bonesvalls
+Olesa de Montserrat
+Olivella
+Olost
+Olvan
+Ordal
+Orís
+Oristà
+Orpí
+Òrrius
+Osona
+Pacs del Penedés
+Pago
+Palà de Torroella
+Palafolls
+Pallejà
+Palma de Cervellà
+Palma de Cervelló
+Papiol
+Parellades
+Perafita
+Piera
+Pineda de Mar
+Pla del Penedès
+Pobla de Claramunt
+Pobla de Lillet
+Pont de Vilomara
+Pontons
+Prat de Llobregat
+Prats de Lluçanés
+Prats de Rei
+Premià de Dalt
+Premià de Mar
+Puigdàlber
+Puigmoltó
+Puig-reig
+Quar
+Rajadell
+Ràpita
+Rectoria de Sant Pau
+Rocafort
+Rocallisa
+Roda de Ter
+Rofes
+Rossinyol i Coforb
+Rubió
+Rupit i Pruit
+Saderra
+Sagàs
+saldes
+Salelles
+Sallent
+Salo
+Sant Adrià  de Besós
+Sant Agustí de Lluçanès
+Sant Andreu de la Barca
+Sant Andreu de Llavaneres
+Santa Susanna
+Sant Bartomeu de la Quadra
+Sant Bartomeu del Grau
+Sant Boi de Llobregat
+Sant Boi de Lluçanès
+Sant Cebrià de Vallalta
+Sant Climent de Llobregat
+Sant Cugat Sesgarrigues
+Sant Esteve Sesrovires
+Sant Feli Sassera
+Sant Feliu de Llobregat
+Sant Fost de Campsentelles
+Sant Fruitós de Bages
+Sant Genís de Palafolls
+Sant Hipòlit de Voltregà
+Sant Iscle de Vallalta
+Sant Jaume de Frontanyà
+Sant Joan
+Sant Joan Despí
+Sant Joan de Vilatorrada
+Sant Julià de Vilatorta
+Sant Just Desvern
+Sant Llorenç d'Hortons
+Sant Marçal
+Sant Martí d'Albars
+Sant Martí de Torroella
+Sant Martí de Tous
+Sant Martí Sarroca
+Sant Martí Sescorts
+Sant Martí Sesgueioles
+Sant Mateu de Bages
+Sant Miquel de Balenyà
+Sant Miquel d'Olèrdola
+Sant Pau de la Guàrdia
+Sant Pau d'Ordal
+Sant Pere del Vim
+Sant Pere de Ribes
+Sant Pere de Riudebitlles
+Sant Pere de Torelló
+Sant Pere Molanta
+Sant Pere Sacarrera
+Sant Pere Sallavinera
+Sant Pol de Mar
+Sant Quintí de Mediona
+Sant Quirze de Besora
+Sant Romà de Sau
+Sant Sadurní d'Anoia
+Sant Sadurní d'Osormort
+Sant Salvador de Guardiola
+Sant Salvador de Torroella
+Sant Vicenç de Castellet
+Sant Vicenç dels Horts
+Sant Vicenç de Montalt
+Sant Vicenç de Torelló
+Santa Cecília de Voltregà
+Santa Coloma de Cervelló
+Santa Coloma de Gramenet
+Santa Creu de Jotglar
+Santa Eugènia de Berga
+Santa Eulàlia de Riuprimer
+Santa Fe del Penedès
+Santa Margarida de Montbui
+Santa Maria de Besora
+Santa Maria de Corcó
+Santa Maria de Merlès
+Santa Maria de Miralles
+Santa Maria d'Oló
+Santpedor
+Segur
+Sentfores
+Serrateix
+Seva
+Sitges
+Sobra
+Sobremunt
+Sora
+Sorribes
+Súria
+Talamanca
+Taradell
+Tarumbes
+Tavertet
+Teià
+Tona
+Tordera
+Torelavit
+Torellebreta
+Torelles de Foix
+Torelletes
+Torelló
+Torre
+Torre de Claramunt
+Torre d'Oristà
+Torrelles de Llobregat
+Torres
+Vallbona d'Anoia
+Vallcebre
+Vallirana
+Valls de Torroella
+Veciana
+Vercelló
+Vic
+Vidrà
+Vilada
+Viladecans
+Viladellops
+Viladomiu Nou
+Viladomiu Vell
+Viladrau
+Vilafranca del Penedès
+Vilalleons
+Vilanova del Camí
+Vilanova d'Espoia
+Vilanova i la Geltrú
+Vilassar de Dalt
+Vilassar de Mar
+Vilobí del Penedès
+Vilanova de Sau

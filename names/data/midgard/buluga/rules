@@ -1,0 +1,17 @@
+# Rules for Buluga, the Africa of Midgard
+# There are different people in Buluga, all of them seem to use the same system/names
+# I can see no difference between male and female names.
+# ko- means daughter/son of
+# aba-XXX means from the clan of XXX
+
+m:{start.ngen}{middle.ngen}{end.ngen} ko-{start.ngen}{middle.ngen}{end.ngen}
+f:{start.ngen}{middle.ngen}{end.ngen} ko-{start.ngen}{middle.ngen}{end.ngen}
+
+m:{start.ngen}{end.ngen} ko-{start.ngen}{middle.ngen}{end.ngen}
+f:{start.ngen}{end.ngen} ko-{start.ngen}{middle.ngen}{end.ngen}
+
+m:{start.ngen}{middle.ngen}{end.ngen} ko-{start.ngen}{end.ngen}
+f:{start.ngen}{middle.ngen}{end.ngen} ko-{start.ngen}{end.ngen}
+
+m:{start.ngen}{end.ngen} ko-{start.ngen}{end.ngen}
+f:{start.ngen}{end.ngen} ko-{start.ngen}{end.ngen}

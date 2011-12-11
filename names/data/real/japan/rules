@@ -1,0 +1,7 @@
+#
+# Japan by Thorsten Sick
+# Many names by Sven Heidmann
+#
+
+m:{fam.ngen} {m.ngen}
+f:{fam.ngen} {f.ngen}

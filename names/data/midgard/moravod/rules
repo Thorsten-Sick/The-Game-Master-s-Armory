@@ -1,0 +1,12 @@
+# By Thorsten Sick
+# Experimental, 'cause the endings of the fathers name are put there randomly
+# Let's look if it sounds good.
+
+m:{m.ngen} {m.ngen}ow
+m:{m.ngen} {m.ngen}ew
+m:{m.ngen} {m.ngen}itsch
+m:{m.ngen}
+
+f:{f.ngen} {m.ngen}owa
+f:{f.ngen} {m.ngen}ewa
+f:{f.ngen}

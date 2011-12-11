@@ -1,0 +1,14 @@
+# Rule file for Germany
+# Basing on phone books
+m:{m.ngen} {fam.ngen}
+f:{f.ngen} {fam.ngen}
+
+#Taverns
+t:{tavern.ngen}
+
+#Cities
+c:{cities.ngen}
+
+# Swabia, South-west of germany
+m:[?:swabia]{swabia_m.ngen} {swabia_fam.ngen}
+f:[?:swabia]{swabia_f.ngen} {swabia_fam.ngen}

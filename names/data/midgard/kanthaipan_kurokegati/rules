@@ -1,0 +1,10 @@
+# These rules are written by Thorsten Sick
+# for the midgard KanThaiPan KuroKegaTi
+# They are inspired by chinese names
+#
+# Midgard style is: Put the family name second.
+
+m:{m.ngen} {m.ngen}
+f:{f.ngen} {m.ngen}
+m:{m.ngen} {fam.ngen}
+f:{f.ngen} {fam.ngen}

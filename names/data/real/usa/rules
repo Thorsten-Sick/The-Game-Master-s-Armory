@@ -1,0 +1,6 @@
+# Rule file for USA
+# Basing on names from DVD-Actor lists
+# By Thorsten Sick
+
+m:{m} {fam}
+f:{f} {fam}

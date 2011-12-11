@@ -1,0 +1,13 @@
+# Rule file for waeland
+# Name list basing on:
+# Sourcebook
+
+m:{m.ngen}<uname> </uname> {m.ngen}<uname>ᛊᛟᚾ</uname>son
+m:{m.ngen}<uname> </uname> {f.ngen}<uname>ᛊᛟᚾ</uname>son
+m:{m.ngen}<uname> </uname> {mbeinamen.ngen}
+
+f:{f.ngen}<uname> </uname> {f.ngen}<uname>ᛞᛟᛏᛏᛁᚱ</uname>dottir
+f:{f.ngen}<uname> </uname> {f.ngen}<uname>ᛞᚨᚢᚷᚺᛞᛁᚱ</uname>daughdir
+f:{f.ngen}<uname> </uname> {m.ngen}<uname>ᛞᛟᛏᛏᛁᚱ</uname>dottir
+f:{f.ngen}<uname> </uname> {m.ngen}<uname>ᛞᚨᚢᚷᚺᛞᛁᚱ</uname>daughdir
+f:{f.ngen}<uname> </uname> {fbeinamen.ngen}

@@ -1,0 +1,52 @@
+# Rules for the names by Thorsten Sick
+# Based on greek names (at least a bit)
+#
+
+
+m:[?:very_poor]{m.ngen}
+m:[?:poor]{m.ngen}<uname> ἀπο </uname> apo {cities.ngen}
+m:[?:normal]{m.ngen}<uname> </uname> {fam.ngen}
+m:[?:noble]{m.ngen}<uname> </uname> {fam.ngen}<uname> ἀπο </uname> apo {cities.ngen}
+
+
+f:[?:very_poor]{f.ngen}
+f:[?:poor]{f.ngen}<uname> ἀπο </uname> apo {cities.ngen}
+f:[?:normal]{f.ngen}<uname> </uname> {fam.ngen}
+f:[?:noble]{f.ngen}<uname> </uname> {fam.ngen}<uname> ἀπο </uname> apo {cities.ngen}
+
+c:{cities.ngen}
+
+# rules from Nikostria project
+# By Peter Laubender
+
+m:[?:very_poor,nikostria]{m_nikostria.ngen}
+m:[?:poor,nikostria]{m_nikostria.ngen}<uname> ἀπο </uname> apo {villages_nikostria.ngen}
+#Two first names area allowed
+m:[?:normal,nikostria]{m_nikostria.ngen}<uname> </uname> {fam_nikostria.ngen}
+m:[?:normal,nikostria]{m_nikostria.ngen} <uname> </uname>{m_nikostria.ngen} <uname> </uname>{fam_nikostria.ngen}
+
+# Noble can have more than one family name.
+# And several first names
+m:[?:noble,nikostria]{m_nikostria.ngen}<uname> </uname> {fam_nikostria.ngen}<uname> </uname> {fam_nikostria.ngen}<uname> </uname> {fam_nikostria.ngen}
+m:[?:noble,nikostria]{m_nikostria.ngen}<uname> </uname> {fam_nikostria.ngen}<uname> </uname> {fam_nikostria.ngen}
+m:[?:noble,nikostria]{m_nikostria.ngen}<uname> </uname> {m_nikostria.ngen}<uname> </uname> {fam_nikostria.ngen}<uname> </uname> {fam_nikostria.ngen}<uname> </uname> {fam_nikostria.ngen}
+m:[?:noble,nikostria]{m_nikostria.ngen}<uname> </uname> {m_nikostria.ngen}<uname> </uname> {fam_nikostria.ngen}<uname> </uname> {fam_nikostria.ngen}
+
+####################
+# Female names
+f:[?:very_poor,nikostria]{f_nikostria.ngen}
+f:[?:poor,nikostria]{f_nikostria.ngen}<uname> ἀπο </uname> apo {villages_nikostria.ngen}
+#Two first names area allowed
+f:[?:normal,nikostria]{f_nikostria.ngen}<uname> </uname> {fam_nikostria_female.ngen}
+f:[?:normal,nikostria]{f_nikostria.ngen} <uname> </uname>{f_nikostria.ngen} <uname> </uname>{fam_nikostria_female.ngen}
+
+# Noble can have more than one family name.
+# And several first names
+f:[?:noble,nikostria]{f_nikostria.ngen}<uname> </uname> {fam_nikostria_female.ngen}<uname> </uname> {fam_nikostria_female.ngen}<uname> </uname> {fam_nikostria_female.ngen}
+f:[?:noble,nikostria]{f_nikostria.ngen}<uname> </uname> {fam_nikostria_female.ngen}<uname> </uname> {fam_nikostria_female.ngen}
+f:[?:noble,nikostria]{f_nikostria.ngen}<uname> </uname> {f_nikostria.ngen}<uname> </uname> {fam_nikostria_female.ngen}<uname> </uname> {fam_nikostria_female.ngen}<uname> </uname> {fam_nikostria_female.ngen}
+f:[?:noble,nikostria]{f_nikostria.ngen}<uname> </uname> {f_nikostria.ngen}<uname> </uname> {fam_nikostria_female.ngen}<uname> </uname> {fam_nikostria_female.ngen}
+
+
+v:[?:nikostria]{villages_nikostria.ngen}
+

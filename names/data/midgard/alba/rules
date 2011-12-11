@@ -1,0 +1,23 @@
+# Rule file for Alba
+
+m:{m.ngen} Mac{clan.ngen}
+m:{mtitlebefore.ngen} {m.ngen} Mac{clan.ngen}
+m:{m.ngen} Mac{clan.ngen} {mtitleafter.ngen}
+m:{m.ngen} Mac{clan.ngen} of {cities.ngen}
+m:{m.ngen} Mac{clan.ngen} of {villages.ngen}
+m:{m.ngen} Mac{clan.ngen} of Lower {villages.ngen}
+m:{m.ngen} Mac{clan.ngen} of Upper {villages.ngen}
+
+f:{f.ngen} Ni{clan.ngen}
+f:{f.ngen} Ni{clan.ngen} of {cities.ngen}
+f:{f.ngen} Ni{clan.ngen} of {villages.ngen}
+f:{f.ngen} Ni{clan.ngen} of Lower {villages.ngen}
+f:{f.ngen} Ni{clan.ngen} of Upper {villages.ngen}
+
+c:{cities.ngen}
+v:{villages.ngen}
+v:Lower {villages.ngen}
+v:Upper {villages.ngen}
+h:{mountains.ngen}
+
+# m:[?:noble]NOBLE {m.ngen} Mac{clan.ngen}

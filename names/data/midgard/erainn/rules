@@ -1,0 +1,8 @@
+# Rules written by Thorsten Sick
+# Data fromt he midgard Forum, from the
+# Cuanscadan (I am sure I wrote it wrong) sourcebook and others
+
+m:{m.ngen} {fam.ngen}
+f:{f.ngen} {fam.ngen}
+m:{m.ngen}
+f:{f.ngen}

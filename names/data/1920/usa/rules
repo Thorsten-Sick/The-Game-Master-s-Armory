@@ -1,0 +1,7 @@
+# data from:http://www.ssa.gov/OACT/babynames/decades/names1890s.html
+# The family names are taken from present time. I do not know which immigrants 
+# came from which countries after 1920. If you know more, please clean the family names.
+#
+
+m:{m.ngen} {fam.ngen}
+f:{f.ngen} {fam.ngen}

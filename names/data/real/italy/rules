@@ -1,0 +1,4 @@
+# Rule file for Italy
+# Basing on a phone book
+m:{m.ngen} {fam.ngen}
+f:{f.ngen} {fam.ngen}

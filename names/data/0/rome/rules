@@ -1,0 +1,22 @@
+# The rules to create roman names
+# From 
+# http://en.wikipedia.org/wiki/Roman_names
+
+# For the very poor
+m:[?:very_poor]{m_praenomen.ngen} {nomina.ngen}
+f:[?:very_poor]{f_nomina.ngen}
+
+# For the poor
+m:[?:poor]{m_praenomen.ngen} {nomina.ngen} {nomicius.ngen} f.
+f:[?:poor]{f_nomina.ngen} {f_nomina.ngen}
+
+# The normal ones
+m:[?:normal]{m_praenomen.ngen} {nomina.ngen} {nomicius.ngen} f. {nomicius.ngen} n.
+f:[?:normal]{f_nomina.ngen} {f_nomina.ngen} {f_nomina.ngen}
+
+# For the noble ones
+m:[?:noble]{m_praenomen.ngen} {nomina.ngen} {nomicius.ngen} f. {nomicius.ngen} n. {cognomina.ngen}
+f:[?:noble]{f_nomina.ngen} {f_nomina.ngen} {f_nomina.ngen} {f_nomina.ngen}
+#
+# Here titles and more can be added.
+#

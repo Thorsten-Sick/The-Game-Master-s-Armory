@@ -1,0 +1,18 @@
+# These rules are written by Thorsten Sick
+# for the midgard KanThaiPan TsaiChen Valley
+# They are inspired by japanese names
+#
+
+
+# Simple people, simple names
+m:{m.ngen}
+f:{f.ngen}
+
+# Simple people, simple names-with families
+m:{m.ngen} {families.ngen}
+f:{f.ngen} {families.ngen}
+
+
+# With a Clan
+m:{clans.ngen} {m.ngen}
+f:{clans.ngen} {f.ngen}
