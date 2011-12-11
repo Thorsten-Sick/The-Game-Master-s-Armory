@@ -1,0 +1,7 @@
+# Add new stuff to top
+
+
+
+Dezember 11th 2011
+******************
+- Thorsten.Sick@email.de: Imported code to github. Had help from Matthias Mack (Dorkhamster@googlemail.com) and Alexander Binder (alexanderbinder1@web.de)
