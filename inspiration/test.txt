@@ -1,0 +1,4 @@
+Kampf/angriff/patzer:Waffen fallen lassen
+kampf/angriff/patzer:Offen für Angriff (automatischer Konter)
+kampf/verteidigung/patzer:Hinfallen
+elfen/wald:Fest
