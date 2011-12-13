@@ -1,0 +1,16 @@
+Stadt/Paranoia/Negativ:Verfolger
+Stadt/Verbrechen/Negativ:Taschendieb
+Stadt/Verbrechen/Negativ:Jemand wird in der Gasse zusammengeschlagen
+Stadt/Positiv:Rosenverkäufer
+Land/Dorf/Positiv:Eine alte Frau kommt ins Gespräch
+Land/Dorf/Positiv:Man wird zum essen eingeladen
+Land/Dorf/Negativ:In einem Dorf meiden die Bewohner die Spieler
+Land/Auto/Negativ:Wagen hat Motorschaden
+Stadt/Auto/Negativ:Auffahrunfall
+Stadt/Auto/Negativ:Pferd scheut
+Stadt/Positiv:Musikant
+Stadt/Polizei/Verbrechen/Negativ:Polizeikontrolle
+Land/Verbrechen/Negativ:Polizei sucht einen entflohenen Verbrecher
+Land/Negativ:Eine Scheune brennt
+Stadt/Positiv:Ein Laden eröffnet neu und die Charaktere werden eingeladen
+Stadt/Positiv:Die Charaktere werden von einem Freundlichen Lokalreporter zu einem netten Ereignis interviewed
