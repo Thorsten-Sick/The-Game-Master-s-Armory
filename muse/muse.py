@@ -72,7 +72,7 @@ def readdb(filename):
     i = 0
     for aline in fh.readlines():
         entry = {}
-        entry["id"] = i        
+        entry["id"] = i
         a,b = aline.split(":")
         entry["text"] = b
         entry["flags"] = []
@@ -87,7 +87,7 @@ def getcommands(already):
     """
     """
 
-    return COMMANDS    
+    return COMMANDS
     """
     matches = get_matches(already)
     
@@ -112,7 +112,7 @@ def complete(text, state):
             else:
                 state -= 1
 
-def mainloop(interactive, databases, number=5):
+def mainloop(databases, number = 5, cmdline = None):
     """ Main processing loop
 
     interactive: Stay in the loop till the user enters "quit"
@@ -124,22 +124,27 @@ def mainloop(interactive, databases, number=5):
         readdb(i)
     readline.parse_and_bind("tab: complete")
     readline.set_completer(complete)
-    a=""
-    while a != "quit":
-        a = raw_input('Enter section name: ')
-        print ">>>" + a
-        command = a.split(" ")
+
+    if not cmdline:
+        a=""
+        while a != "quit":
+            a = raw_input('Enter section name: ')
+            print ">>>" + a
+            command = a.split(" ")
+            print_ideas(command, number)
+            print "enter <quit> to quit"
+    else:
+        command = cmdline.split(",")
         print_ideas(command, number)
-        print "enter <quit> to quit"
 
 if __name__== "__main__":
     parser = argparse.ArgumentParser(description='Muse. Inspiration for the Game Master')
-    parser.add_argument('--interactive', action='store_true', default=False, help="Run in interactive mode")
+    parser.add_argument('--command', default=None, help="One shot command to parse. flags separated by ','")
     parser.add_argument('--number', type=int, default=5, help="Number of ideas per request")
     parser.add_argument('--databases', nargs='+', help='The database files to use')
                        
     args = parser.parse_args()
 
-    mainloop(args.interactive, args.databases, args.number)
+    mainloop(args.databases, args.number, args.command)
     
 
