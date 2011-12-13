@@ -25,6 +25,8 @@ Muse offers a simple way to get inspiration from database files
 # http://stackoverflow.com/questions/2046050/tab-completion-in-python-command-line-interface-how-to-catch-tab-events
 
 import readline
+import argparse
+import random
 
 COMMANDS = []
 
@@ -38,7 +40,17 @@ def get_matches(already):
 
     return res
 
-def get_ideas(flags, number=5):
+def print_idealist(ilist, total):
+    """ Prints a idea list
+    """
+
+    for i in ilist:
+        print "\t"+i.strip()
+
+    print "Total ideas: " + str(total)
+        
+    
+def print_ideas(flags, number=5):
     """ Return a list of ideas
 
     flags: relevant flags
@@ -50,13 +62,13 @@ def get_ideas(flags, number=5):
     for i in  data:
         res.append (i["text"])
     if len(res) <= number:
-        return res
+        print_idealist(res, len(res))
     else:
         random.shuffle(res)
-        return res[:4]
+        print_idealist(res[:number], len(res))
 
-def readdb():
-    fh = open("test.txt")
+def readdb(filename):
+    fh = open(filename)
     i = 0
     for aline in fh.readlines():
         entry = {}
@@ -100,8 +112,16 @@ def complete(text, state):
             else:
                 state -= 1
 
-if __name__== "__main__":
-    readdb()
+def mainloop(interactive, databases, number=5):
+    """ Main processing loop
+
+    interactive: Stay in the loop till the user enters "quit"
+    databases: a list of database files to use
+    number: Number of items to display
+    """
+
+    for i in databases:
+        readdb(i)
     readline.parse_and_bind("tab: complete")
     readline.set_completer(complete)
     a=""
@@ -109,7 +129,17 @@ if __name__== "__main__":
         a = raw_input('Enter section name: ')
         print ">>>" + a
         command = a.split(" ")
-        ideas = get_ideas(command)
-        for i in ideas:
-            print i
+        print_ideas(command, number)
+        print "enter <quit> to quit"
+
+if __name__== "__main__":
+    parser = argparse.ArgumentParser(description='Muse. Inspiration for the Game Master')
+    parser.add_argument('--interactive', action='store_true', default=False, help="Run in interactive mode")
+    parser.add_argument('--number', type=int, default=5, help="Number of ideas per request")
+    parser.add_argument('--databases', nargs='+', help='The database files to use')
+                       
+    args = parser.parse_args()
+
+    mainloop(args.interactive, args.databases, args.number)
+    
 

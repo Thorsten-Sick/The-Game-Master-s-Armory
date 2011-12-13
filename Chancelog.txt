@@ -7,6 +7,7 @@ o Fixed typos
 o added license hints to README
 o renamed inspirator to muse
 o added GPL to muse
+o added arguments for muse
 
 
 December 11th 2011
