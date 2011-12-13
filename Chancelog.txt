@@ -1,7 +1,14 @@
 # Add new stuff to top
 
+December 13th 2011
+******************
+- Thorsten.Sick@email.de:
+o Fixed typos
+o added license hints to README
+o renamed inspirator to muse
+o added GPL to muse
 
 
-Dezember 11th 2011
+December 11th 2011
 ******************
 - Thorsten.Sick@email.de: Imported code to github. Had help from Matthias Mack (Dorkhamster@googlemail.com) and Alexander Binder (alexanderbinder1@web.de)
