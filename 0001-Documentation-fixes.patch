@@ -1,0 +1,323 @@
+From 9e1e72a209338ab4ff158ea0ea8b153713f8426f Mon Sep 17 00:00:00 2001
+From: Mathias Mack <dorkhamster@googlemail.com>
+Date: Wed, 14 Dec 2011 20:50:58 +0100
+Subject: [PATCH] Documentation fixes
+
+---
+ Chancelog.txt      |   11 ++++++-
+ names/libnamegen.c |   83 +++++++++++++++++++++++-------------------------
+ names/libnamegen.h |   43 ++++++++++++-------------
+ names/main.c       |   90 ++++++++++++++++++++++++++--------------------------
+ 4 files changed, 116 insertions(+), 111 deletions(-)
+
+diff --git a/Chancelog.txt b/Chancelog.txt
+index fea7ea9..8c323c4 100644
+--- a/Chancelog.txt
++++ b/Chancelog.txt
+@@ -1,5 +1,6 @@
+ # Add new stuff to top
+ 
++
+ December 13th 2011
+ ******************
+ - Thorsten.Sick@email.de:
+@@ -12,7 +13,15 @@ o added German 1920 Cthulhu basics db file
+ o removed interactive mode and added commandline
+ o filling Cthulhu basics
+ 
++- Mathias Mack
++o Tried to solve issue#1, but failed so far.
++o Started research for help in solving issue#1. Thorsten sent me a link to StackOverflow.com to help me.
++o Made the comments of main.c, libnamegen.c and libnamegen.h more readable. Still have some work befor me.
++
+ 
+ December 11th 2011
+ ******************
+-- Thorsten.Sick@email.de: Imported code to github. Had help from Matthias Mack (Dorkhamster@googlemail.com) and Alexander Binder (alexanderbinder1@web.de)
++- Thorsten.Sick@email.de: Imported code to github. Had help from Mathias Mack (Dorkhamster@googlemail.com) and Alexander Binder (alexanderbinder1@web.de)
++- Mathias Mack
++o Corrected my firstname.
++o Corrected misspelled words in the README (initiative)
+\ No newline at end of file
+diff --git a/names/libnamegen.c b/names/libnamegen.c
+index f8896da..727c25f 100644
+--- a/names/libnamegen.c
++++ b/names/libnamegen.c
+@@ -1,33 +1,30 @@
+-/** \file libnamegen.c
+-*
+-* This is the library file of libnamegen. Libnamegen is a library to generate REALISTIC names.
+-* It does NOT work with sylabels which are attached to each other to create "elbish" names.
+-* It works wit a rule file which is interpreted and some database files for each language.
+-*
+-* This way it is possible to create real names.
+-*
+-*
+-*
+-* Licence: It is licenced under the LGPL 2.1 or later
+-* Author: Thorsten Sick
+-* thorstensick@users.sourceforge.net
+-*/
++/*file libnamegen.c											*/
++
++/* This is the library file of libnamegen. Libnamegen is a library to generate REALISTIC names.		*/
++/* It does NOT work with sylabels which are attached to each other to create "elbish" names.		*/
++/* It works wit a rule file which is interpreted and some database files for each language.		*/
++
++/* This way it is possible to create real names.							*/
+ 
+-/*
+- * Libnamegen Library to generate realistic names for people and places
+- * Copyright (C) 2005-2007 Thorsten Sick libnamegen.c Library to generate 
+- * names for persons Copyright 2007 Thorsten Sick This library is free
+- * software; you can redistribute it and/or modify it under the terms of
+- * the GNU Lesser General Public License as published by the Free Software 
+- * Foundation; either version 2 of the License, or (at your option) any
+- * later version. This library is distributed in the hope that it will be 
+- * useful, but WITHOUT ANY WARRANTY; without even the implied warranty of
+- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+- * Lesser General Public License for more details. You should have
+- * received a copy of the GNU Lesser General Public License along with
+- * this library; if not, write to the Free Software Foundation, Inc., 59
+- * Temple Place - Suite 330, Boston, MA 02111-1307, USA. 
+- */
++
++
++/* Licence: It is licenced under the LGPL 2.1 or later							*/
++/* Author: Thorsten Sick										*/
++/* thorstensick@users.sourceforge.net									*/
++
++/* Libnamegen Library to generate realistic names for people and places					*/
++/* Copyright (C) 2005-2007 Thorsten Sick libnamegen.c Library to generate				*/
++/* names for persons Copyright 2007 Thorsten Sick This library is free					*/
++/* software; you can redistribute it and/or modify it under the terms of				*/
++/* the GNU Lesser General Public License as published by the Free Software				*/
++/* Foundation; either version 2 of the License, or (at your option) any					*/
++/* later version. This library is distributed in the hope that it will be				*/
++/* useful, but WITHOUT ANY WARRANTY; without even the implied warranty of				*/
++/* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU					*/
++/* Lesser General Public License for more details. You should have					*/
++/* received a copy of the GNU Lesser General Public License along with					*/
++/* this library; if not, write to the Free Software Foundation, Inc., 59				*/
++/* Temple Place - Suite 330, Boston, MA 02111-1307, USA.						*/
+ 
+ 
+ #include "libnamegen.h"
+@@ -37,28 +34,28 @@
+ #include <dirent.h>
+ #include <assert.h>
+ 
+-// Remove this as soon as we are ready for release
++/*Remove this as soon as we are ready for release							*/
+ #define DEBUG 1
+ 
+ 
+-#define DIR_SEPARATOR "/"	// /< Linux version.
++#define DIR_SEPARATOR "/"										/* Linux version */
+ 
+ #ifndef TRUE
+ #define TRUE 1
+ #define FALSE 0
+ #endif
+ 
+-// ////////////////////////////////// Helper and wrapper functions
++/* Helper and wrapper functions */
++
++/* brief Get the string out of the list. 0 is the string of the anchor.					*/
++
++/* param anchor the list to browse									*/
++/* param id the number of the string to get								*/
++/* return the string. NULL on error (list is to short...)						*/
++/* author Thorsten Sick											*/
++/* date 25.4.2007											*/
++/* callgraph												*/
+ 
+-/** \brief Get the string out of the list. 0 is the string of the anchor.
+-*
+-* \param anchor the list to browse
+-* \param id the number of the string to get
+-* \return the string. NULL on error (list is to short...)
+-* \author Thorsten Sick
+-* \date 25.4.2007
+-* \callgraph
+-*/
+ char *
+ libnamegen_get_linked_string_by_number (struct libnamegen_linked_string_list
+ 					*anchor, unsigned int id)
+diff --git a/names/libnamegen.h b/names/libnamegen.h
+index af0f347..8466dc3 100644
+--- a/names/libnamegen.h
++++ b/names/libnamegen.h
+@@ -1,25 +1,24 @@
+-/* Libnamegen Library to generate realistic names for people and places
+- * Copyright (C) 2005-2007  Thorsten Sick
+- *
+- * libnamegen.h Library to generate names for people and places.
+- *
+- * Copyright 2007 Thorsten Sick
+- *
+- * This library is free software; you can redistribute it and/or
+- * modify it under the terms of the GNU Lesser General Public
+- * License as published by the Free Software Foundation; either
+- * version 2 of the License, or (at your option) any later version.
+- *
+- * This library is distributed in the hope that it will be useful,
+- * but WITHOUT ANY WARRANTY; without even the implied warranty of
+- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+- * Lesser General Public License for more details.
+- *
+- * You should have received a copy of the GNU Lesser General Public
+- * License along with this library; if not, write to the
+- * Free Software Foundation, Inc., 59 Temple Place - Suite 330,
+- * Boston, MA 02111-1307, USA.
+- */
++/* Libnamegen Library to generate realistic names for people and places		*/
++/* Copyright (C) 2005-2007  Thorsten Sick					*/
++
++/* libnamegen.h Library to generate names for people and places.		*/
++
++/* Copyright 2007 Thorsten Sick							*/
++
++/* This library is free software; you can redistribute it and/or		*/
++/* modify it under the terms of the GNU Lesser General Public			*/
++/* License as published by the Free Software Foundation; either			*/
++/* version 2 of the License, or (at your option) any later version.		*/
++
++/* This library is distributed in the hope that it will be useful,		*/
++/* but WITHOUT ANY WARRANTY; without even the implied warranty of		*/
++/* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU		*/
++/* Lesser General Public License for more details.				*/
++
++/* You should have received a copy of the GNU Lesser General Public		*/
++/* License along with this library; if not, write to the			*/
++/* Free Software Foundation, Inc., 59 Temple Place - Suite 330,			*/
++/* Boston, MA 02111-1307, USA.							*/
+ 
+ 
+ #ifndef _libnamegen_h_
+diff --git a/names/main.c b/names/main.c
+index 30ed554..ec4799a 100644
+--- a/names/main.c
++++ b/names/main.c
+@@ -1,32 +1,32 @@
+-/* Created by Anjuta version 1.2.0 */
+-/*	This file will not be overwritten */
+-/*
+-* Parameters:
+-* rpg_names m midgard alba
+-*  m/f: male/female
+-*  midgard: the name of the rpg
+-*  alba: the name of the country
+-*
+-*
+-*
+-* data is read from
+-* basedir/midgard/names/alba
+-*
+-*
+-* Needed files
+-* m male names
+-* f femine names
+-* fam family names
+-* style Name-style Contains one line (more to come)
+-* 1
+-* ---8< ----
+-* 1 is the name-style. At the moment, there is only on style.
+-*
+-* Written by Thorsten Sick
+-* thorstensick@users.sourceforge.net
+-* under the Terms of the LGPL (Lesser GPL).
+-* For more: See readme.txt
+-*/
++/* Created by Anjuta version 1.2.0				*/
++/* This file will not be overwritten				*/
++
++/* Parameters:							*/
++/* rpg_names m midgard alba					*/
++/* m/f: male/female */
++/* midgard: the name of the rpg					*/
++/* alba: the name of the country				*/
++
++
++
++/* data is read from						*/
++/* basedir/midgard/names/alba					*/
++
++
++/* Needed files							*/
++/* m male names							*/
++/* f femine names						*/
++/* fam family names						*/
++/* style Name-style Contains one line (more to come)		*/
++/* 1								*/
++/* ---8< ----							*/
++/* 1 is the name-style. At the moment, there is only on style.	*/
++
++/* Written by Thorsten Sick					*/
++/* thorstensick@users.sourceforge.net				*/
++/* under the Terms of the LGPL (Lesser GPL).			*/
++/* For more: See readme.txt					*/
++
+ 
+ 
+ 
+@@ -36,16 +36,16 @@
+ #include <unistd.h>
+ 
+ 
+-/** \brief prints a list of the database
+-*
+-*
+-*
+-* \param cmdline_test prin additional data
+-* \author Thorsten Sick
+-* \date 13.3.2007
+-* \return 0 on success
+-* \callgraph
+-*/
++/* brief prints a list of the database				*/
++
++
++
++/* param cmdline_test prin additional data			*/
++/* author Thorsten Sick						*/
++/* date 13.3.2007						*/
++/* return 0 on success						*/
++/* callgraph							*/
++
+ int list_db(gint      cmdline_test)
+ {
+ 	//GPtrArray * array=NULL;
+@@ -58,13 +58,13 @@ int list_db(gint      cmdline_test)
+ 		
+ 	gchar command[LIBNAMEGEN_MAX_RULE_LENGTH];
+ 
+-	// Version information
++	/* Version information */
+ 	int major;
+ 	int minor;
+ 	
+-	// Init information
+-	struct libnamegen_initstruct init; // Here initialization data is passed
+-	struct libnamegen_init_int * data=NULL; // The initialized data is in here
++	/* Init information */
++	struct libnamegen_initstruct init;				/* Here initialization data is passed */
++	struct libnamegen_init_int * data=NULL;				/* The initialized data is in here    */
+ 	
+ 	struct libnamegen_linked_string_list *worldlist=NULL;
+ 	struct libnamegen_linked_string_list *world=NULL;
+@@ -74,9 +74,9 @@ int list_db(gint      cmdline_test)
+ 	
+ 	char * description=NULL;
+ 	
+-	//GError *gerror = NULL;
++	/* GError *gerror = NULL; */
+ 
+-	gulong statf=0, statm=0, smallest_stat=0;	// Statistics for the databases
++	gulong statf=0, statm=0, smallest_stat=0;			/* Statistics for the databases */
+ 	
+ 	#ifdef WINCROSS
+ 		char * total_dir=NULL;
+-- 
+1.7.5.4
+

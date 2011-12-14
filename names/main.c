@@ -1,32 +1,32 @@
-/* Created by Anjuta version 1.2.0 */
-/*	This file will not be overwritten */
-/*
-* Parameters:
-* rpg_names m midgard alba
-*  m/f: male/female
-*  midgard: the name of the rpg
-*  alba: the name of the country
-*
-*
-*
-* data is read from
-* basedir/midgard/names/alba
-*
-*
-* Needed files
-* m male names
-* f femine names
-* fam family names
-* style Name-style Contains one line (more to come)
-* 1
-* ---8< ----
-* 1 is the name-style. At the moment, there is only on style.
-*
-* Written by Thorsten Sick
-* thorstensick@users.sourceforge.net
-* under the Terms of the LGPL (Lesser GPL).
-* For more: See readme.txt
-*/
+/* Created by Anjuta version 1.2.0				*/
+/* This file will not be overwritten				*/
+
+/* Parameters:							*/
+/* rpg_names m midgard alba					*/
+/* m/f: male/female */
+/* midgard: the name of the rpg					*/
+/* alba: the name of the country				*/
+
+
+
+/* data is read from						*/
+/* basedir/midgard/names/alba					*/
+
+
+/* Needed files							*/
+/* m male names							*/
+/* f femine names						*/
+/* fam family names						*/
+/* style Name-style Contains one line (more to come)		*/
+/* 1								*/
+/* ---8< ----							*/
+/* 1 is the name-style. At the moment, there is only on style.	*/
+
+/* Written by Thorsten Sick					*/
+/* thorstensick@users.sourceforge.net				*/
+/* under the Terms of the LGPL (Lesser GPL).			*/
+/* For more: See readme.txt					*/
+
 
 
 
@@ -36,16 +36,16 @@
 #include <unistd.h>
 
 
-/** \brief prints a list of the database
-*
-*
-*
-* \param cmdline_test prin additional data
-* \author Thorsten Sick
-* \date 13.3.2007
-* \return 0 on success
-* \callgraph
-*/
+/* brief prints a list of the database				*/
+
+
+
+/* param cmdline_test prin additional data			*/
+/* author Thorsten Sick						*/
+/* date 13.3.2007						*/
+/* return 0 on success						*/
+/* callgraph							*/
+
 int list_db(gint      cmdline_test)
 {
 	//GPtrArray * array=NULL;
@@ -58,13 +58,13 @@ int list_db(gint      cmdline_test)
 		
 	gchar command[LIBNAMEGEN_MAX_RULE_LENGTH];
 
-	// Version information
+	/* Version information */
 	int major;
 	int minor;
 	
-	// Init information
-	struct libnamegen_initstruct init; // Here initialization data is passed
-	struct libnamegen_init_int * data=NULL; // The initialized data is in here
+	/* Init information */
+	struct libnamegen_initstruct init;				/* Here initialization data is passed */
+	struct libnamegen_init_int * data=NULL;				/* The initialized data is in here    */
 	
 	struct libnamegen_linked_string_list *worldlist=NULL;
 	struct libnamegen_linked_string_list *world=NULL;
@@ -74,9 +74,9 @@ int list_db(gint      cmdline_test)
 	
 	char * description=NULL;
 	
-	//GError *gerror = NULL;
+	/* GError *gerror = NULL; */
 
-	gulong statf=0, statm=0, smallest_stat=0;	// Statistics for the databases
+	gulong statf=0, statm=0, smallest_stat=0;			/* Statistics for the databases */
 	
 	#ifdef WINCROSS
 		char * total_dir=NULL;

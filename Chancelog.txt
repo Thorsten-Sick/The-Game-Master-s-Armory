@@ -1,5 +1,6 @@
 # Add new stuff to top
 
+
 December 13th 2011
 ******************
 - Thorsten.Sick@email.de:
@@ -12,7 +13,15 @@ o added German 1920 Cthulhu basics db file
 o removed interactive mode and added commandline
 o filling Cthulhu basics
 
+- Mathias Mack
+o Tried to solve issue#1, but failed so far.
+o Started research for help in solving issue#1. Thorsten sent me a link to StackOverflow.com to help me.
+o Made the comments of main.c, libnamegen.c and libnamegen.h more readable. Still have some work befor me.
+
 
 December 11th 2011
 ******************
-- Thorsten.Sick@email.de: Imported code to github. Had help from Matthias Mack (Dorkhamster@googlemail.com) and Alexander Binder (alexanderbinder1@web.de)
+- Thorsten.Sick@email.de: Imported code to github. Had help from Mathias Mack (Dorkhamster@googlemail.com) and Alexander Binder (alexanderbinder1@web.de)
+- Mathias Mack
+o Corrected my firstname.
+o Corrected misspelled words in the README (initiative)

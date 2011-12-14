@@ -1,33 +1,30 @@
-/** \file libnamegen.c
-*
-* This is the library file of libnamegen. Libnamegen is a library to generate REALISTIC names.
-* It does NOT work with sylabels which are attached to each other to create "elbish" names.
-* It works wit a rule file which is interpreted and some database files for each language.
-*
-* This way it is possible to create real names.
-*
-*
-*
-* Licence: It is licenced under the LGPL 2.1 or later
-* Author: Thorsten Sick
-* thorstensick@users.sourceforge.net
-*/
+/*file libnamegen.c											*/
 
-/*
- * Libnamegen Library to generate realistic names for people and places
- * Copyright (C) 2005-2007 Thorsten Sick libnamegen.c Library to generate 
- * names for persons Copyright 2007 Thorsten Sick This library is free
- * software; you can redistribute it and/or modify it under the terms of
- * the GNU Lesser General Public License as published by the Free Software 
- * Foundation; either version 2 of the License, or (at your option) any
- * later version. This library is distributed in the hope that it will be 
- * useful, but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
- * Lesser General Public License for more details. You should have
- * received a copy of the GNU Lesser General Public License along with
- * this library; if not, write to the Free Software Foundation, Inc., 59
- * Temple Place - Suite 330, Boston, MA 02111-1307, USA. 
- */
+/* This is the library file of libnamegen. Libnamegen is a library to generate REALISTIC names.		*/
+/* It does NOT work with sylabels which are attached to each other to create "elbish" names.		*/
+/* It works wit a rule file which is interpreted and some database files for each language.		*/
+
+/* This way it is possible to create real names.							*/
+
+
+
+/* Licence: It is licenced under the LGPL 2.1 or later							*/
+/* Author: Thorsten Sick										*/
+/* thorstensick@users.sourceforge.net									*/
+
+/* Libnamegen Library to generate realistic names for people and places					*/
+/* Copyright (C) 2005-2007 Thorsten Sick libnamegen.c Library to generate				*/
+/* names for persons Copyright 2007 Thorsten Sick This library is free					*/
+/* software; you can redistribute it and/or modify it under the terms of				*/
+/* the GNU Lesser General Public License as published by the Free Software				*/
+/* Foundation; either version 2 of the License, or (at your option) any					*/
+/* later version. This library is distributed in the hope that it will be				*/
+/* useful, but WITHOUT ANY WARRANTY; without even the implied warranty of				*/
+/* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU					*/
+/* Lesser General Public License for more details. You should have					*/
+/* received a copy of the GNU Lesser General Public License along with					*/
+/* this library; if not, write to the Free Software Foundation, Inc., 59				*/
+/* Temple Place - Suite 330, Boston, MA 02111-1307, USA.						*/
 
 
 #include "libnamegen.h"
@@ -37,28 +34,28 @@
 #include <dirent.h>
 #include <assert.h>
 
-// Remove this as soon as we are ready for release
+/*Remove this as soon as we are ready for release							*/
 #define DEBUG 1
 
 
-#define DIR_SEPARATOR "/"	// /< Linux version.
+#define DIR_SEPARATOR "/"										/* Linux version */
 
 #ifndef TRUE
 #define TRUE 1
 #define FALSE 0
 #endif
 
-// ////////////////////////////////// Helper and wrapper functions
+/* Helper and wrapper functions */
 
-/** \brief Get the string out of the list. 0 is the string of the anchor.
-*
-* \param anchor the list to browse
-* \param id the number of the string to get
-* \return the string. NULL on error (list is to short...)
-* \author Thorsten Sick
-* \date 25.4.2007
-* \callgraph
-*/
+/* brief Get the string out of the list. 0 is the string of the anchor.					*/
+
+/* param anchor the list to browse									*/
+/* param id the number of the string to get								*/
+/* return the string. NULL on error (list is to short...)						*/
+/* author Thorsten Sick											*/
+/* date 25.4.2007											*/
+/* callgraph												*/
+
 char *
 libnamegen_get_linked_string_by_number (struct libnamegen_linked_string_list
 					*anchor, unsigned int id)
