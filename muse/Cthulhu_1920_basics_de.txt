@@ -7,10 +7,22 @@ Land/Dorf/Positiv:Man wird zum essen eingeladen
 Land/Dorf/Negativ:In einem Dorf meiden die Bewohner die Spieler
 Land/Auto/Negativ:Wagen hat Motorschaden
 Stadt/Auto/Negativ:Auffahrunfall
-Stadt/Auto/Negativ:Pferd scheut
+Stadt/Auto/Negativ:Pferd scheut vor dem Auto
 Stadt/Positiv:Musikant
 Stadt/Polizei/Verbrechen/Negativ:Polizeikontrolle
 Land/Verbrechen/Negativ:Polizei sucht einen entflohenen Verbrecher
 Land/Negativ:Eine Scheune brennt
 Stadt/Positiv:Ein Laden eröffnet neu und die Charaktere werden eingeladen
 Stadt/Positiv:Die Charaktere werden von einem Freundlichen Lokalreporter zu einem netten Ereignis interviewed
+Stadt/Positiv:Es wird ein Gewinnspiel veranstaltet
+Stadt/Negativ/Paranoia:Ein seltsam verunstalter Hund interessiert sich für die Charaktere
+Auto/Negativ:Das Benzin ist alle
+Auto/Negativ:Reifenpanne
+Negativ/Paranoia:Die Leute scheinen eine seltsame Krankheit zu haben
+Stadt/Mythos/Buch:Auf einem Plakat für eine Buchmesse (mit Bild) ist ein Mythosbuch zu erkennen
+Stadt/Mythos/Buch:Ein Antiquariat hat ein Mythosbuch in der Auslage (Fälschung ? Nachdruck ? Versehen ?)
+Stadt/Paranoia/Negativ:Ein Weltuntergangsprophet predigt
+Stadt/Buch:Autorenlesung ausgeschrieben. Der Titel des Werkes ist seltsam
+Stadt:Diashow eines interessanten Reiseberichts (zukünftiges Ziel der Gruppe, merkwürdiger Titel, ...)
+Stadt/UpperClass:Mumien auswickel Party
+Stadt/Museum:Eröffnung einer interessanten Ausstellung

@@ -10,6 +10,7 @@ o added GPL to muse
 o added arguments for muse
 o added German 1920 Cthulhu basics db file
 o removed interactive mode and added commandline
+o filling Cthulhu basics
 
 
 December 11th 2011
