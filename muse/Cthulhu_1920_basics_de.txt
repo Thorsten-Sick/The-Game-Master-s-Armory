@@ -1,4 +1,4 @@
-Stadt/Paranoia/Negativ:Verfolger
+Stadt/Paranoia/Negativ:Mysteriöser Verfolger
 Stadt/Verbrechen/Negativ:Taschendieb
 Stadt/Verbrechen/Negativ:Jemand wird in der Gasse zusammengeschlagen
 Stadt/Positiv:Rosenverkäufer
@@ -22,7 +22,15 @@ Negativ/Paranoia:Die Leute scheinen eine seltsame Krankheit zu haben
 Stadt/Mythos/Buch:Auf einem Plakat für eine Buchmesse (mit Bild) ist ein Mythosbuch zu erkennen
 Stadt/Mythos/Buch:Ein Antiquariat hat ein Mythosbuch in der Auslage (Fälschung ? Nachdruck ? Versehen ?)
 Stadt/Paranoia/Negativ:Ein Weltuntergangsprophet predigt
-Stadt/Buch:Autorenlesung ausgeschrieben. Der Titel des Werkes ist seltsam
-Stadt:Diashow eines interessanten Reiseberichts (zukünftiges Ziel der Gruppe, merkwürdiger Titel, ...)
-Stadt/UpperClass:Mumien auswickel Party
-Stadt/Museum:Eröffnung einer interessanten Ausstellung
+Stadt/Buch/Freizeit:Autorenlesung ausgeschrieben. Der Titel des Werkes ist seltsam
+Stadt/Freizeit:Diashow eines interessanten Reiseberichts (zukünftiges Ziel der Gruppe, merkwürdiger Titel, ...)
+Stadt/UpperClass/Freizeit:Mumien auswickel Party
+Stadt/Museum/Freizeit:Eröffnung einer interessanten Ausstellung
+Freizeit/Stadt:Glücksspiel (illegal)
+Freizeit/Stadt:Glücksspiel (legal)
+Freizeit/Stadt:Raucherclub
+Freizeit/Stadt:Boxkämpfe (legal)
+Freizeit/Stadt:Boxkämpfe (illegal)
+Freizeit/Stadt:Tanzwettbewerbe
+Freizeit/Stadt:Cabarét
+

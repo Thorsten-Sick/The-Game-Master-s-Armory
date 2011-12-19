@@ -1,0 +1,45 @@
+Ruine/Schatz:Stein mit Runen/Inschriften
+Ruine:Der Boden bricht ein. Es geht in ein Kellergewölbe
+Ruine/Schatz:Archöologischer Fund
+Sumpf:Gas blubbert in kleinen Wasserlöchern
+Sumpf:Schwefelgestank
+Sumpf:Seltsames Leuchten
+Sumpf:Tiere, die nicht zu sehen sind, aber komische Geräusche machen
+Sumpf:Modergestank
+Sumpf:Eine einsame Trauerweide auf einer Insel
+Sumpf:Nebel aus dem Nichts
+Sumpf:Fund einer ledrigen Moorleiche
+Wüste:Fund einer Karawanserei (verlassen ? in Betrieb ?)
+Wüste:Treffen mit einer Karawane
+Wüste:Oase (Tümpel mit Palmen)
+Wüste:Oase (Flusslauf durch Felsen)
+Wüste:Wadi
+Wüste:alte Ruinen einer unbekannten Zivilisation
+Wüste:ausgebleichte Skelette
+Wüste/Schatz:Verunglückte Karawante mit Schätzen
+Wüste/Schatz:Verunglückte Karawante mit Schriftstücken (Bücher, Urkunden, Zauber, Testamenten, ...)
+Berg:Lawine
+Berg:Wetterumschwung
+Berg:Alm
+Berg:Verunglückte Bergsteiger
+Berg/Schatz:Verunglückte Bergsteiger mit Ausrüstung
+Berg/Schatz:Edelsteine im Fels
+Berg/Schatz:Schmugglerhort
+Wald:Angeschossenes Tier
+Wald:Felsnase mitten im Wald
+Wald:Bach
+Wald:Pfad
+Wald:Wildwechsel
+Wald:Pilze
+Wald:vom Blitz gespaltener Baum
+Wald:altes Lagerfeuer
+Wald:Bienenstöcke
+Wald:von Raubiter gerissenes Tier
+Wald:Quelle
+Wald:Pfosten mit Schädel
+Wald:Wegweiser
+Wald:Kräuter
+Wald:Höhle
+Wald:Fluß
+Wald:Menhire
+Wald:Kadaver
