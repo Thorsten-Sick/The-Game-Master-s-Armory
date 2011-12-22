@@ -33,4 +33,19 @@ Freizeit/Stadt:Boxkämpfe (legal)
 Freizeit/Stadt:Boxkämpfe (illegal)
 Freizeit/Stadt:Tanzwettbewerbe
 Freizeit/Stadt:Cabarét
-
+Freizeit/Mythos:Kuriositätenshow
+Freizeit/Verbrechen:Prosititution
+Freizeit:Tanzcafé
+Land:Eine verlassene Mine
+Land/Mythos:Ein Bauer findet ein mysteriöses, vom Himmel gefallenes Objekt
+Stadt/Chinatown:Ein Mann trägt einen Korb voller Pudel über die Straße
+Stadt/Chinatown:Eine Opiumhöhle
+Stadt/Chinatown:Ein Straßenumzug mit lauter Musik, seltsam gewandeten Leuten und Drachen
+USA/Ku-Klux-Klan/Negativ:Ein brennendes Kreuz am Wegesrand
+USA/Ku-Klux-Klan/Negativ:Parade vermummter Leute
+USA/Ku-Klux-Klan/Negativ:Ein Mann mit eingebranntem KKK auf der Stirn
+USA/Durchsuchung/Ku-Klux-Klan/Negativ:Fund einer Ku Klux Klan Robe und Waffen in einer Wohnung
+USA/Ku-Klux-Klan/Verbrechen/Negativ:Ein Ku-Klux-Klan Lynchmob ist auf der Jagd
+USA/Ku-Klux-Klan/Negativ:Interne Streitigkeiten beim Ku-Klux-Klan eskalieren
+USA/Ku-Klux-Klan/Negativ:Vom Ku-Klux-Klan gekaufte Politiker oder Beamte
+Stadt/Verbrechen:Bombenanschlag
