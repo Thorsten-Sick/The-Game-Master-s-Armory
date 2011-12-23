@@ -1,0 +1,13 @@
+Reise/Frachter:Der Frachter transportiert Gefahrengut. Ein Fass wird vermisst
+Reise/Frachter:Der Frachter transportiert Gefahrengut. Es brennt
+Reise/Frachter:Der Frachter transportiert Tiere. Diese werden unruhig
+Reise/Frachter:Der Frachter transportiert Tiere. Eines bricht aus
+Reise/Frachter:Der Frachter schmuggelt. Die Charaktere entdecken das...
+Reise/Frachter:Der Frachter schmuggelt. Ein Kontrolle hält ihn an
+Reise/Personenschiff:Man kann in einem Schwimmbecken schwimmen
+Reise/Personenschiff:Man kann in einem Schwimmbecken schwimmen, es gibt einen Unfall
+Reise/Personenschiff:Man kann Tontauben schießen
+Reise/Personenschiff:Es gibt Cocktails und Gelegenheit für soziale Treffen
+Reise/Personenschiff:Ein Varieté spielt
+Reise/Personenschiff:Es wird Gymnastik/Ringen/andere Sportart angeboten
+Reise/PErsonenschiff/Frachter:Ein mysteriöses Wasserflugzeug trifft sich mitten im Meer mit dem Schiff. Post ?
