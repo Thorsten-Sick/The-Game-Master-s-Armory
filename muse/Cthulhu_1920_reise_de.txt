@@ -10,4 +10,8 @@ Reise/Personenschiff:Man kann Tontauben schießen
 Reise/Personenschiff:Es gibt Cocktails und Gelegenheit für soziale Treffen
 Reise/Personenschiff:Ein Varieté spielt
 Reise/Personenschiff:Es wird Gymnastik/Ringen/andere Sportart angeboten
-Reise/PErsonenschiff/Frachter:Ein mysteriöses Wasserflugzeug trifft sich mitten im Meer mit dem Schiff. Post ?
+Reise/Personenschiff/Frachter:Ein mysteriöses Wasserflugzeug trifft sich mitten im Meer mit dem Schiff. Post ?
+Reise/Personenschiff/Zug:Fahrkarten können nur noch auf dem Schwarzmarkt erworben werden.
+Reise/Ausland:Zollformalitäten, evtl. Missverständnisse und Probleme mit seltsamen Gegenständen und Quarantänebestimmungen
+Reise/Ausland:Visa und andere Papiere müssen organisiert werden.
+

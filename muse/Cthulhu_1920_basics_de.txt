@@ -49,3 +49,4 @@ USA/Ku-Klux-Klan/Verbrechen/Negativ:Ein Ku-Klux-Klan Lynchmob ist auf der Jagd
 USA/Ku-Klux-Klan/Negativ:Interne Streitigkeiten beim Ku-Klux-Klan eskalieren
 USA/Ku-Klux-Klan/Negativ:Vom Ku-Klux-Klan gekaufte Politiker oder Beamte
 Stadt/Verbrechen:Bombenanschlag
+Mythos:Ein Fotograf nimmt Fotos auf, auf denen Geister zu sehen sind
