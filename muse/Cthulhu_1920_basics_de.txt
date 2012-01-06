@@ -38,9 +38,16 @@ Freizeit/Verbrechen:Prosititution
 Freizeit:Tanzcafé
 Land:Eine verlassene Mine
 Land/Mythos:Ein Bauer findet ein mysteriöses, vom Himmel gefallenes Objekt
-Stadt/Chinatown:Ein Mann trägt einen Korb voller Pudel über die Straße
-Stadt/Chinatown:Eine Opiumhöhle
-Stadt/Chinatown:Ein Straßenumzug mit lauter Musik, seltsam gewandeten Leuten und Drachen
+Stadt/Chinatown/China:Ein Mann trägt einen Korb voller Pudel über die Straße
+Stadt/Chinatown/China:Eine Opiumhöhle
+Stadt/Chinatown/China:Ein Straßenumzug mit lauter Musik, seltsam gewandeten Leuten und Drachen
+Stadt/Chinatown/China:Eine Festivität (Jahrestag, Hochzeit, Feiertag) sorgt für ein (bodennahes ?) Feuerwerk
+Stadt/Chinatown/China:Eine Chinesische Apotheke mit seltsamen Arzneien und noch seltsameren Menschen
+Stadt/Chinatown/China:Ein Dämpf-Imbiss am Straßenrand zieht Menschen an und verbreitet Gerüche
+Stadt/Chinatown/China/Verbrechen:Ein "Einsatz" der Triaden in der Nähe
+Stadt/Chinatown/China/Verbrechen:Die Triaden kontaktieren die Spieler zwecks Schmuggel
+Stadt/Chinatown/China:Chinesische Akrobaten führen ihre Künste vor
+Negativ:Eine von Kinderlähmung verkrüppelte Person
 USA/Ku-Klux-Klan/Negativ:Ein brennendes Kreuz am Wegesrand
 USA/Ku-Klux-Klan/Negativ:Parade vermummter Leute
 USA/Ku-Klux-Klan/Negativ:Ein Mann mit eingebranntem KKK auf der Stirn
