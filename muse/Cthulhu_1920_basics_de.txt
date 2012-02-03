@@ -57,3 +57,7 @@ USA/Ku-Klux-Klan/Negativ:Interne Streitigkeiten beim Ku-Klux-Klan eskalieren
 USA/Ku-Klux-Klan/Negativ:Vom Ku-Klux-Klan gekaufte Politiker oder Beamte
 Stadt/Verbrechen:Bombenanschlag
 Mythos:Ein Fotograf nimmt Fotos auf, auf denen Geister zu sehen sind
+Omen:Ein sprechender Rabe, der kaum verständlich Worte und Bruchstücke krächzt
+Omen:Tiere beginnen sich zu fürchten
+Omen:Träume reissen einen nachts aus dem Schlaf
+Omen:Eine Obdachlose stammelt wirres Zeug
