@@ -43,3 +43,6 @@ Wald:Höhle
 Wald:Fluß
 Wald:Menhire
 Wald:Kadaver
+Wald/Berg/Reise:Eine Brücke wird oder wurde vom Unwetter weggespült
+Reise/Wald/Sumpf:Eine uralte Armee von Geistern führt weiterhin ihren alten Auftrag aus
+Burg/Ruine:Geister wollen Hilfe von den Spielern. Nur einer kann sie sehen.
