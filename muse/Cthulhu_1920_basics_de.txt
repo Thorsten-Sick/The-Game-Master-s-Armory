@@ -61,3 +61,7 @@ Omen:Ein sprechender Rabe, der kaum verständlich Worte und Bruchstücke krächz
 Omen:Tiere beginnen sich zu fürchten
 Omen:Träume reissen einen nachts aus dem Schlaf
 Omen:Eine Obdachlose stammelt wirres Zeug
+Omen:Psychoaktive Pilze um mehr wahrzunehmen. Tödlich oder Erkenntnis?
+Geist/Verbrechen:Ein Scherz mit einem Spuk wird für real gehalten
+Stadt/Politik:Eine politische Versammlung endet in einer Saalschlacht
+Stadt/Politik:Eine politische Versammlung endet in einer Straßenschlacht

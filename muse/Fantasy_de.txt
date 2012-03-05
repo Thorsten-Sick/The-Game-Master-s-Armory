@@ -1,5 +1,5 @@
-Ruine/Schatz:Stein mit Runen/Inschriften
-Ruine:Der Boden bricht ein. Es geht in ein Kellergewölbe
+Ruine/Schatz:In einer Ruine findet man einen Stein mit rätselhaften  Runen/Inschriften
+Ruine:In einer Ruine bricht der Boden ein. Es geht in ein Kellergewölbe
 Ruine/Schatz:Archöologischer Fund
 Sumpf:Gas blubbert in kleinen Wasserlöchern
 Sumpf:Schwefelgestank
@@ -46,3 +46,7 @@ Wald:Kadaver
 Wald/Berg/Reise:Eine Brücke wird oder wurde vom Unwetter weggespült
 Reise/Wald/Sumpf:Eine uralte Armee von Geistern führt weiterhin ihren alten Auftrag aus
 Burg/Ruine:Geister wollen Hilfe von den Spielern. Nur einer kann sie sehen.
+Reise/Krankheit/Stadt:In einer Stadt unterwegs herrscht die Pest. Niemand kümmert sich darum
+Reise/Krankheit/Stadt:In einer Stadt unterwegs herrscht die Pest. Wachen und Armee riegelt weitflächig ab
+Reise/Krankheit/Stadt:In einer Stadt unterwegs herrscht die Pest. Quacksalber verdienen viel Geld
+Geist/Verbrechen:Ein Scherz mit einem Spuk wird für real gehalten
