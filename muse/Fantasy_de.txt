@@ -81,4 +81,4 @@ Tempel:Ein Torii (Tor zum Tempel) ist der Zugang zur Geisterwelt
 Einkaufen/Markt:Marktschreier versuchen sehr aggressiv, ihre Waren zu verkaufen
 Omen:Krebse weisen auf ihrem Rücken gesichtsartige Muster auf
 Stadt:Man findet einen Flecken Park oder Natur in einer ansonsten überfüllten Stadt
-
+Abenteuer:Ein Landstrich soll kolonisiert werden
