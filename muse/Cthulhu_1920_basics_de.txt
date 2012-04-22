@@ -65,3 +65,17 @@ Omen:Psychoaktive Pilze um mehr wahrzunehmen. Tödlich oder Erkenntnis?
 Geist/Verbrechen:Ein Scherz mit einem Spuk wird für real gehalten
 Stadt/Politik:Eine politische Versammlung endet in einer Saalschlacht
 Stadt/Politik:Eine politische Versammlung endet in einer Straßenschlacht
+Chinatown/China:Man trifft einen Bettelmönch
+Chinatown/China:Man trifft eine ungewöhnliche Hochzeitsgesellschaft mit fremden Bräuchen
+Stadt:Eine Gruppe Betrunkener verhält sich auffällig oder agressiv
+Stadt:Im Viertel bricht ein Brand aus
+Omen:Den Charakteren erscheint wiederholt ein Totemtier/Kami
+Negativ:Ungeziefer (Ratten, Mäuse, Insekten) in der Unterkunft
+China/Chinatown/Japan:An einem Tempel kann meine seine Zukunft vorhersagen lassen (Lose,I-Ging)
+China/Chinatown/Japan/Indien:Man kann sich eine Tempelzeremonie kaufen, bei der gesungen und getanzt wird um die Götter zu besänftigen
+China/Chinatown/Japan/Indien:Man beobachtet eine Tempel-Zeremonie, die sich jemand gekauft hat, bei der gesungen und getanzt wird um die Götter zu besänftigen. Evtl. hat der Wunsch der Person was mit den Charakteren zu tun
+Japan:Ein Torii (Tor zum Tempel) ist der Zugang zur Geisterwelt
+Einkaufen/Japan/China/Arabien:Marktschreier versuchen sehr aggressiv, ihre Waren zu verkaufen
+Omen:Krebse weisen auf ihrem Rücken gesichtsartige Muster auf
+Stadt:Man findet einen Flecken Park oder Natur in einer ansonsten überfüllten Stadt
+

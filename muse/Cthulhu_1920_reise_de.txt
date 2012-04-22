@@ -1,17 +1,38 @@
-Reise/Frachter:Der Frachter transportiert Gefahrengut. Ein Fass wird vermisst
-Reise/Frachter:Der Frachter transportiert Gefahrengut. Es brennt
-Reise/Frachter:Der Frachter transportiert Tiere. Diese werden unruhig
-Reise/Frachter:Der Frachter transportiert Tiere. Eines bricht aus
-Reise/Frachter:Der Frachter schmuggelt. Die Charaktere entdecken das...
-Reise/Frachter:Der Frachter schmuggelt. Ein Kontrolle hält ihn an
-Reise/Personenschiff:Man kann in einem Schwimmbecken schwimmen
-Reise/Personenschiff:Man kann in einem Schwimmbecken schwimmen, es gibt einen Unfall
-Reise/Personenschiff:Man kann Tontauben schießen
-Reise/Personenschiff:Es gibt Cocktails und Gelegenheit für soziale Treffen
-Reise/Personenschiff:Ein Varieté spielt
-Reise/Personenschiff:Es wird Gymnastik/Ringen/andere Sportart angeboten
-Reise/Personenschiff/Frachter:Ein mysteriöses Wasserflugzeug trifft sich mitten im Meer mit dem Schiff. Post ?
-Reise/Personenschiff/Zug:Fahrkarten können nur noch auf dem Schwarzmarkt erworben werden.
+Reise/Schiff/Frachter:Der Frachter transportiert Gefahrengut. Ein Fass wird vermisst
+Reise/Schiff/Frachter:Der Frachter transportiert Gefahrengut. Es brennt
+Reise/Schiff/Frachter:Der Frachter transportiert Tiere. Diese werden unruhig
+Reise/Schiff/Frachter:Der Frachter transportiert Tiere. Eines bricht aus
+Reise/Schiff/Frachter:Der Frachter schmuggelt. Die Charaktere entdecken das...
+Reise/Schiff/Frachter:Der Frachter schmuggelt. Ein Kontrolle hält ihn an
+Reise/Schiff/Personenschiff:Man kann in einem Schwimmbecken schwimmen
+Reise/Schiff/Personenschiff:Man kann in einem Schwimmbecken schwimmen, es gibt einen Unfall
+Reise/Schiff/Personenschiff:Man kann Tontauben schießen
+Reise/Schiff/Personenschiff:Es gibt Cocktails und Gelegenheit für soziale Treffen
+Reise/Schiff/Personenschiff:Ein Varieté spielt
+Reise/Schiff/Personenschiff:Es wird Gymnastik/Ringen/andere Sportart angeboten
+Reise/Schiff/Personenschiff/Frachter:Ein mysteriöses Wasserflugzeug trifft sich mitten im Meer mit dem Schiff. Post ?
+Reise/Schiff/Personenschiff/Zug:Fahrkarten können nur noch auf dem Schwarzmarkt erworben werden.
 Reise/Ausland:Zollformalitäten, evtl. Missverständnisse und Probleme mit seltsamen Gegenständen und Quarantänebestimmungen
 Reise/Ausland:Visa und andere Papiere müssen organisiert werden.
-
+Reise/Ausland:Visa und andere Papiere sind verloren/abgelaufen/werden nicht akzeptiert
+Ausland:Zufälliges Treffen anderer Ausländer
+Ausland:Ein Einheimischer bemüht hartnäckig seine "Sprachkünste"
+Ausland:Es gibt merkwürdige, interessante oder widerliche Speisen
+Ausland/Reise:Einheimische helfen erfolgreich, den Weg zu finden
+Ausland/Reise:Einheinmische verwirren mit falschen Wegangaben
+Ausland/China/Japan/Indien:Man wird per Rikscha transportiert
+Ausland/Japan:Man kann einen Steingarten besuchen
+Japan:Man trifft unverhofft auf hässliche Geishas (alt, fett, faltig, schiefe Zähne)
+Japan/China/Indien:Man findet einen kleinen Schrein. Dort ist ein Opferstock mit Münzen (stehlen ? spenden?)
+Reise/Schiff:Man trifft auf ein Geisterschiff
+Reise:Andere Ausländer benehmen sich daneben
+Reise:Andere Ausländer benehmen sich daneben. die Charaktere werden verantwortlich gemacht
+Reise/Japan:Ein alter Palast besitzt einen Nightingal floor
+Ausland:Reaktion der Einwohner ist barsch
+Ausland:Reaktion der Einwohner ist ablehnend
+Ausland:Reaktion der Einwohner ist neugierig
+Ausland:Reaktion der Einwohner ist verängstigt
+Ausland:Reaktion der Einwohner ist uninformiert
+Ausland:Reaktion der Einwohner ist abweisend, deren Kinder sinde aber neugierig
+Reise:Landkarten sind falsch, schlecht, irreführend, schlecht, ungenau
+Reise:Reiseführer sind orientierungslos, lassen sich aber nichts anmerken

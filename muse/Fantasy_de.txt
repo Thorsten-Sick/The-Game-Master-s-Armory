@@ -50,3 +50,35 @@ Reise/Krankheit/Stadt:In einer Stadt unterwegs herrscht die Pest. Niemand kümme
 Reise/Krankheit/Stadt:In einer Stadt unterwegs herrscht die Pest. Wachen und Armee riegelt weitflächig ab
 Reise/Krankheit/Stadt:In einer Stadt unterwegs herrscht die Pest. Quacksalber verdienen viel Geld
 Geist/Verbrechen:Ein Scherz mit einem Spuk wird für real gehalten
+Reise/Abenteuer:Ein Transport seltener Pflanzen für einen Prunkgarten muss bewacht werden
+Stadt:Ein Einheimischer bemüht hartnäckig seine "Sprachkünste"
+Stadt:Es gibt merkwürdige, interessante oder widerliche Speisen
+Reise:Einheimische helfen erfolgreich, den Weg zu finden
+Reise:Einheinmische verwirren mit falschen Wegangaben
+Wald:Man findet einen kleinen Schrein. Dort ist ein Opferstock mit Münzen (stehlen ? spenden?)
+Reise/Schiff:Man trifft auf ein Geisterschiff
+Reise:Andere Ausländer benehmen sich daneben
+Reise:Andere Ausländer benehmen sich daneben. die Charaktere werden verantwortlich gemacht
+Palast:Ein alter Palast besitzt einen Nightingal floor
+Reise:Reaktion der Einwohner ist barsch
+Reise:Reaktion der Einwohner ist ablehnend
+Reise:Reaktion der Einwohner ist neugierig
+Reise:Reaktion der Einwohner ist verängstigt
+Reise:Reaktion der Einwohner ist uninformiert
+Reise:Reaktion der Einwohner ist abweisend, deren Kinder sinde aber neugierig
+Reise:Landkarten sind falsch, schlecht, irreführend, schlecht, ungenau
+Reise:Reiseführer sind orientierungslos, lassen sich aber nichts anmerken
+Reise/Stadt:Man trifft einen Bettelmönch
+Stadt/Dorf:Man trifft eine ungewöhnliche Hochzeitsgesellschaft mit fremden Bräuchen
+Stadt/Dorf:Eine Gruppe Betrunkener verhält sich auffällig oder agressiv
+Stadt/Dorf:Im Viertel bricht ein Brand aus
+Omen:Den Charakteren erscheint wiederholt ein Totemtier/Kami
+Negativ/Rast:Ungeziefer (Ratten, Mäuse, Insekten) in der Unterkunft
+Tempel:An einem Tempel kann meine seine Zukunft vorhersagen lassen (Lose,I-Ging)
+Tempel:Man kann sich eine Tempelzeremonie kaufen, bei der gesungen und getanzt wird um die Götter zu besänftigen
+Tempel:Man beobachtet eine Tempel-Zeremonie, die sich jemand gekauft hat, bei der gesungen und getanzt wird um die Götter zu besänftigen. Evtl. hat der Wunsch der Person was mit den Charakteren zu tun
+Tempel:Ein Torii (Tor zum Tempel) ist der Zugang zur Geisterwelt
+Einkaufen/Markt:Marktschreier versuchen sehr aggressiv, ihre Waren zu verkaufen
+Omen:Krebse weisen auf ihrem Rücken gesichtsartige Muster auf
+Stadt:Man findet einen Flecken Park oder Natur in einer ansonsten überfüllten Stadt
+
