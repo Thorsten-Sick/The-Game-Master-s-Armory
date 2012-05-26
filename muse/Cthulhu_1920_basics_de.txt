@@ -57,6 +57,13 @@ USA/Ku-Klux-Klan/Negativ:Interne Streitigkeiten beim Ku-Klux-Klan eskalieren
 USA/Ku-Klux-Klan/Negativ:Vom Ku-Klux-Klan gekaufte Politiker oder Beamte
 Stadt/Verbrechen:Bombenanschlag
 Mythos:Ein Fotograf nimmt Fotos auf, auf denen Geister zu sehen sind
+Mythos:Die Spieler finden eine Lieferung mit menschlichen Körperteilen
+Mythos/Buch:In einer Sammlung von Mythosbüchern fehlt eines
+Mythos:Seltsame Morde (blutleere Leute)
+Mythos:Ein Forscher des Okkulten hat seltsame Diener (Ausländer, deren Sprache keiner spricht, "Halblüter", seltsam tätowierte Leute - die Angst vor fremdem ausnutzen !)
+Mythos:Ein Forscher des Mythos verfällt körperlich, wird schwach ("Schwindsucht").
+Mythos:Ein Forscher des Okkulten hat einen lichten Moment und versucht sich selbst aufzuhalten/Hilfe zu finden. Das geht aber wieder vorbei....
+Mythos:Nach einem Unwetter wird eine seltsam verstümmelte Leiche an das Flußufer gespült
 Omen:Ein sprechender Rabe, der kaum verständlich Worte und Bruchstücke krächzt
 Omen:Tiere beginnen sich zu fürchten
 Omen:Träume reissen einen nachts aus dem Schlaf
